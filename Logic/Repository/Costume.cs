@@ -24,9 +24,9 @@ namespace Logic.Repository
             set { _name = value; }
         }
 
-        private Type _type;
+        private TypeOfCostume _type;
 
-        public Type type
+        public TypeOfCostume type
         {
             get { return _type; }
             set { _type = value; }

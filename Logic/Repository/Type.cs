@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logic.Repository
 {
-    class Type
+    class TypeOfCostume
     {
         private int _IdType;
 
