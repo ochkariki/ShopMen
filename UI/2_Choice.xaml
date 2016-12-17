@@ -5,9 +5,9 @@
         <Image HorizontalAlignment="Left" Height="134" Margin="44,61,0,0" VerticalAlignment="Top" Width="160"/>
         <Image HorizontalAlignment="Left" Height="134" Margin="381,61,0,0" VerticalAlignment="Top" Width="160"/>
         <Image HorizontalAlignment="Left" Height="134" Margin="673,61,0,0" VerticalAlignment="Top" Width="160"/>
-        <Label Content="  Фраки " HorizontalAlignment="Left" Margin="44,242,0,0" VerticalAlignment="Top" Height="33" Width="160" FontFamily="Monotype Corsiva" FontSize="22" FontWeight="Bold"/>
-        <Label Content="  Классические" HorizontalAlignment="Left" Margin="381,242,0,0" VerticalAlignment="Top" Width="160" FontFamily="Monotype Corsiva" FontSize="22" FontWeight="Bold"/>
-        <Label Content="  Смокинги" HorizontalAlignment="Left" Margin="673,242,0,0" VerticalAlignment="Top" Width="160" FontFamily="Monotype Corsiva" FontSize="22" FontWeight="Bold"/>
+        <Label Content="  Frak" HorizontalAlignment="Left" Margin="44,242,0,0" VerticalAlignment="Top" Height="33" Width="160" FontFamily="Monotype Corsiva" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Custome" HorizontalAlignment="Left" Margin="381,242,0,0" VerticalAlignment="Top" Width="160" FontFamily="Monotype Corsiva" FontSize="22" FontWeight="Bold"/>
+        <Label Content="  Smoking" HorizontalAlignment="Left" Margin="673,242,0,0" VerticalAlignment="Top" Width="160" FontFamily="Monotype Corsiva" FontSize="22" FontWeight="Bold"/>
 
     </Grid>
 </Window>

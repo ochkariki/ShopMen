@@ -16,10 +16,10 @@
         <ListBox HorizontalAlignment="Left" Height="100" Margin="626,163,0,0" VerticalAlignment="Top" Width="218"/>
         <ListBox HorizontalAlignment="Left" Height="100" Margin="626,295,0,0" VerticalAlignment="Top" Width="218"/>
         <ListBox HorizontalAlignment="Left" Height="100" Margin="626,427,0,0" VerticalAlignment="Top" Width="218"/>
-        <Label Content="27 500 рублей" HorizontalAlignment="Left" Margin="938,35,0,0" VerticalAlignment="Top" Height="100" Width="144" FontFamily="Monotype Corsiva" FontSize="22"/>
-        <Label Content="30 000 рублей" HorizontalAlignment="Left" Margin="938,163,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
-        <Label Content="37 000 рублей" HorizontalAlignment="Left" Margin="938,295,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
-        <Label Content="38 000 рублей" HorizontalAlignment="Left" Margin="938,427,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <Label Content="27 500 rubles" HorizontalAlignment="Left" Margin="938,35,0,0" VerticalAlignment="Top" Height="100" Width="144" FontFamily="Monotype Corsiva" FontSize="22"/>
+        <Label Content="30 000 rubles" HorizontalAlignment="Left" Margin="938,163,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <Label Content="37 000 rubles" HorizontalAlignment="Left" Margin="938,295,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <Label Content="38 000 rubles" HorizontalAlignment="Left" Margin="938,427,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
         <ListBox HorizontalAlignment="Left" Height="100" Margin="1168,35,0,0" VerticalAlignment="Top" Width="100"/>
         <ListBox HorizontalAlignment="Left" Height="100" Margin="1168,163,0,0" VerticalAlignment="Top" Width="100"/>
         <ListBox HorizontalAlignment="Left" Height="100" Margin="1168,295,0,0" VerticalAlignment="Top" Width="100"/>

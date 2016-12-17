@@ -66,17 +66,17 @@
 66; Costume;Regular;grey;M;6
 67; Costume;Regular;grey;L;5
 68; Costume;AB-8;white;S;7
-69; Costume;AB-9;white;M;9
-70; Costume;AB-10;white;L;9
-71; Costume;AB-11;white;XL;6
-72; Costume;AB-12;black;S;9
-73; Costume;AB-13;black;M;10
-74; Costume;AB-14;black;L;11
-75; Costume;AB-15;black;XL;8
-76; Costume;AB-16;grey;S;6
-77; Costume;AB-17;grey;M;7
-78; Costume;AB-18;grey;L;7
-79; Costume;AB-19;grey;XL;5
+69; Costume;AB-8;white;M;9
+70; Costume;AB-8;white;L;9
+71; Costume;AB-8;white;XL;6
+72; Costume;AB-8;black;S;9
+73; Costume;AB-8;black;M;10
+74; Costume;AB-8;black;L;11
+75; Costume;AB-8;black;XL;8
+76; Costume;AB-8;grey;S;6
+77; Costume;AB-8;grey;M;7
+78; Costume;AB-8;grey;L;7
+79; Costume;AB-8;grey;XL;5
 80; Costume;Munich;white;M;8
 81; Costume;Munich;white;L;7
 82; Costume;Munich;white;XL;7
@@ -112,15 +112,15 @@
 112;Smoking;Caesar;grey;L;8
 113;Smoking;Caesar;grey;XL;7
 114;Smoking;Lorenzo;white;S;7
-115;Smoking;Caesar;white;M;8
+115;Smoking;Lorenzo;white;M;8
 116;Smoking;Lorenzo;white;L;8
-117;Smoking;Caesar;black;S;9
+117;Smoking;Lorenzo;black;S;9
 118;Smoking;Lorenzo;black;M;12
-119;Smoking;Caesar;black;L;11
+119;Smoking;Lorenzo;black;L;11
 120;Smoking;Lorenzo;black;XL;10
-121;Smoking;Caesar;grey;M;7
+121;Smoking;Lorenzo;grey;M;7
 122;Smoking;Lorenzo;grey;L;8
-123;Smoking;Caesar;grey;XL;7
+123;Smoking;Lorenzo;grey;XL;7
 124;Smoking;Dignity;white;S;9
 125;Smoking;Dignity;white;M;9
 126;Smoking;Dignity;white;L;10
