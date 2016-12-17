@@ -6,15 +6,6 @@ using System.Threading.Tasks;
 
 namespace Logic.Repository
 {
-    enum Type
-    {
-        Frak, Costume, Smoking
-    }
-
-    enum Colour
-    {
-        Black, Grey, White
-    }
     class Costume
     {
         private int _IdCostume;
@@ -49,9 +40,9 @@ namespace Logic.Repository
             set { _colour = value; }
         }
 
-        private int _size;
+        private Size _size;
         
-        public int size
+        public Size size
         {
             get { return _size; }
             set { _size = value; }
