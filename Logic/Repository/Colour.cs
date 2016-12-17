@@ -10,7 +10,7 @@ namespace Logic.Repository
     {
         private int _IdColour;
 
-        public int IdColour
+        public int ColourId
         {
             get { return _IdColour; }
             set { _IdColour = value; }
@@ -23,5 +23,6 @@ namespace Logic.Repository
             get { return _colour; }
             set { _colour = value; }
         }
+
     }
 }

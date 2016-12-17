@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Logic.Repository
 {
-    class TypeOfCostume
+    public class TypeOfCostume
     {
         private int _IdType;
 
-        public int IdType
+        public int TypeOfCostumeId
         {
             get { return _IdType; }
             set { _IdType = value; }
@@ -23,5 +23,6 @@ namespace Logic.Repository
             get { return _type; }
             set { _type = value; }
         }
+
     }
 }

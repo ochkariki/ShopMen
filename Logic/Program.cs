@@ -10,6 +10,10 @@ namespace Logic
     {
         static void Main(string[] args)
         {
+            using (var db = new Context())
+            {
+                
+            }
         }
     }
 }

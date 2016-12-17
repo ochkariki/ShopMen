@@ -10,7 +10,7 @@ namespace Logic.Repository
     {
         private int _IdCostume;
 
-        public int IdCostume
+        public int CostumeId
         {
             get { return _IdCostume; }
             set { _IdCostume = value; }
@@ -41,7 +41,7 @@ namespace Logic.Repository
         }
 
         private Size _size;
-        
+
         public Size size
         {
             get { return _size; }
@@ -55,5 +55,6 @@ namespace Logic.Repository
             get { return _quantity; }
             set { _quantity = value; }
         }
+
     }
 }

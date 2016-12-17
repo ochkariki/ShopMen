@@ -10,7 +10,7 @@ namespace Logic.Repository
     {
         private int _IdSize;
 
-        public int IdSize
+        public int SizeId
         {
             get { return _IdSize; }
             set { _IdSize = value; }
@@ -23,5 +23,6 @@ namespace Logic.Repository
             get { return _size; }
             set { _size = value; }
         }
+
     }
 }

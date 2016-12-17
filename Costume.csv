@@ -1,0 +1,134 @@
+﻿1;Frak;Naples;white;S;3
+2;Frak;Naples;white;M;4
+3;Frak;Naples;white;L;3
+4;Frak;Naples;white;XL;1
+5;Frak;Naples;black;S;4
+6;Frak;Naples;black;M;3
+7;Frak;Naples;black;L;3
+8;Frak;Naples;black;XL;2
+9;Frak;Naples;grey;M;2
+10;Frak;Naples;grey;L;1
+11;Frak;Naples;grey;XL;1
+12;Frak;Clark;white;S;4
+13;Frak;Clark;white;M;3
+14;Frak;Clark;white;L;3
+15;Frak;Clark;white;XL;1
+16;Frak;Clark;black;S;3
+17;Frak;Clark;black;M;3
+18;Frak;Clark;black;XL;1
+19;Frak;Clark;grey;S;2
+20;Frak;Clark;grey;M;1
+21;Frak;Clark;grey;L;1
+22;Frak;Clark;grey;XL;1
+23;Frak;Ruben;white;S;2
+24;Frak;Ruben;white;M;3
+25;Frak;Ruben;white;L;4
+26;Frak;Ruben;white;XL;2
+27;Frak;Ruben;black;S;4
+28;Frak;Ruben;black;M;5
+29;Frak;Ruben;black;L;5
+30;Frak;Ruben;black;XL;2
+31;Frak;Ruben;grey;M;3
+32;Frak;Ruben;grey;L;2
+33;Frak;Ruben;grey;XL;1
+34;Frak;Melange;white;S;3
+35;Frak;Melange;white;M;2
+36;Frak;Melange;white;L;2
+37;Frak;Melange;white;XL;1
+38;Frak;Melange;black;S;3
+39;Frak;Melange;black;M;4
+40;Frak;Melange;black;L;4
+41;Frak;Melange;black;XL;2
+42;Frak;Melange;grey;S;3
+43;Frak;Melange;grey;M;1
+44;Frak;Melange;grey;L;1
+45;Frak;Melange;grey;XL;2
+46; Costume;Ramos;white;S;5
+47; Costume;Ramos;white;M;6
+48; Costume;Ramos;white;L;6
+49; Costume;Ramos;black;S;5
+50; Costume;Ramos;black;M;7
+51; Costume;Ramos;black;L;8
+52; Costume;Ramos;black;XL;4
+53; Costume;Ramos;grey;S;5
+54; Costume;Ramos;grey;M;4
+55; Costume;Ramos;grey;L;3
+56; Costume;Ramos;grey;XL;4
+57; Costume;Regular;white;S;6
+58; Costume;Regular;white;M;7
+59; Costume;Regular;white;L;7
+60; Costume;Regular;white;XL;6
+61; Costume;Regular;black;S;7
+62; Costume;Regular;black;M;9
+63; Costume;Regular;black;L;8
+64; Costume;Regular;black;XL;7
+65; Costume;Regular;grey;S;4
+66; Costume;Regular;grey;M;6
+67; Costume;Regular;grey;L;5
+68; Costume;AB-8;white;S;7
+69; Costume;AB-9;white;M;9
+70; Costume;AB-10;white;L;9
+71; Costume;AB-11;white;XL;6
+72; Costume;AB-12;black;S;9
+73; Costume;AB-13;black;M;10
+74; Costume;AB-14;black;L;11
+75; Costume;AB-15;black;XL;8
+76; Costume;AB-16;grey;S;6
+77; Costume;AB-17;grey;M;7
+78; Costume;AB-18;grey;L;7
+79; Costume;AB-19;grey;XL;5
+80; Costume;Munich;white;M;8
+81; Costume;Munich;white;L;7
+82; Costume;Munich;white;XL;7
+83; Costume;Munich;black;S;9
+84; Costume;Munich;black;M;12
+85; Costume;Munich;black;L;13
+86; Costume;Munich;black;XL;5
+87; Costume;Munich;grey;S;7
+88; Costume;Munich;grey;M;6
+89; Costume;Munich;grey;L;5
+90; Costume;Munich;grey;XL;6
+91;Smoking;King;white;S;9
+92;Smoking;King;white;M;8
+93;Smoking;King;white;L;8
+94;Smoking;King;white;XL;6
+95;Smoking;King;black;S;10
+96;Smoking;King;black;M;12
+97;Smoking;King;black;L;11
+98;Smoking;King;black;XL;10
+99;Smoking;King;grey;S;8
+100;Smoking;King;grey;M;7
+101;Smoking;King;grey;L;7
+102;Smoking;King;grey;XL;8
+103;Smoking;Caesar;white;S;8
+104;Smoking;Caesar;white;M;9
+105;Smoking;Caesar;white;L;9
+106;Smoking;Caesar;white;XL;7
+107;Smoking;Caesar;black;S;10
+108;Smoking;Caesar;black;M;9
+109;Smoking;Caesar;black;L;11
+110;Smoking;Caesar;black;XL;8
+111;Smoking;Caesar;grey;M;7
+112;Smoking;Caesar;grey;L;8
+113;Smoking;Caesar;grey;XL;7
+114;Smoking;Lorenzo;white;S;7
+115;Smoking;Caesar;white;M;8
+116;Smoking;Lorenzo;white;L;8
+117;Smoking;Caesar;black;S;9
+118;Smoking;Lorenzo;black;M;12
+119;Smoking;Caesar;black;L;11
+120;Smoking;Lorenzo;black;XL;10
+121;Smoking;Caesar;grey;M;7
+122;Smoking;Lorenzo;grey;L;8
+123;Smoking;Caesar;grey;XL;7
+124;Smoking;Dignity;white;S;9
+125;Smoking;Dignity;white;M;9
+126;Smoking;Dignity;white;L;10
+127;Smoking;Dignity;white;XL;8
+128;Smoking;Dignity;black;S;10
+129;Smoking;Dignity;black;M;13
+130;Smoking;Dignity;black;L;12
+131;Smoking;Dignity;black;XL;11
+132;Smoking;Dignity;grey;M;8
+133;Smoking;Dignity;grey;L;7
+134;Smoking;Dignity;grey;XL;7
