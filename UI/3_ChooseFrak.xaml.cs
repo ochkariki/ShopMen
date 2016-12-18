@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Logic;
 using Logic.Repository;
+using UI.Image_xaml;
+
 namespace UI
 {
     /// <summary>
@@ -54,8 +56,8 @@ namespace UI
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            //24500 26200 19800 23000
-            int sum = 24500 * ((int)Naples_Q.SelectedValue) + 26200 * ((int)Clark_Q.SelectedValue) + 19800 * ((int)Ruben_Q.SelectedValue) + 23000 * ((int)Melange_Q.SelectedValue);
+            //20000 19000 21000 20500
+            int sum = 20000 * ((int)Naples_Q.SelectedValue) + 19000 * ((int)Clark_Q.SelectedValue) + 21000 * ((int)Ruben_Q.SelectedValue) + 20500 * ((int)Melange_Q.SelectedValue);
             Feedback fb = new Feedback(sum);
             fb.Show();
             this.Close();
@@ -101,6 +103,14 @@ namespace UI
             for (int i = 0; i < count + 1; i++)
                 temp.Add(i);
             Melange_Q.ItemsSource = temp;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

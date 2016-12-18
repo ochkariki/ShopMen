@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Migrations;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,10 +12,7 @@ namespace Logic
     {
         static void Main(string[] args)
         {
-            using (var db = new Context())
-            {
-                
-            }
+
         }
     }
 }
