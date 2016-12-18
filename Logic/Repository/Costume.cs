@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Logic.Repository
 {
-    class Costume
+    public class Costume : BaseEntity
     {
-        private int _IdCostume;
+
 
         public int CostumeId
         {
-            get { return _IdCostume; }
-            set { _IdCostume = value; }
+            get { return base.Id; }
+            set { base.Id = value; }
         }
 
         private string _name;

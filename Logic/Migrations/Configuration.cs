@@ -16,7 +16,7 @@ namespace Logic.Migrations
 
         protected override void Seed(Logic.Context context)
         {
-            using (var sr = new StreamReader("Costume.csv"))
+            using (var sr = new StreamReader("../Costume.csv"))
             {
                 int a = 1, b = 1, c = 1, d = 1;
 
@@ -26,7 +26,7 @@ namespace Logic.Migrations
 
                 while (line != null)
                 {
-                    if(context.Types.Count() != 0)
+                    if (context.Types.Count() != 0)
                     {
                         context.Types.AddOrUpdate(new Repository.TypeOfCostume { TypeOfCostumeId = a, type = split[1] });
                         a++;
@@ -37,7 +37,7 @@ namespace Logic.Migrations
                         a++;
                     }
 
-                    if(context.Colours.Count() != 0)
+                    if (context.Colours.Count() != 0)
                     {
                         context.Colours.AddOrUpdate(new Repository.Colour { ColourId = b, colour = split[3] });
                         b++;
@@ -61,7 +61,7 @@ namespace Logic.Migrations
 
                     var t = new Repository.TypeOfCostume();
 
-                    foreach(var type in context.Types)
+                    foreach (var type in context.Types)
                     {
                         if (split[1] == type.type)
                             t = type;
@@ -69,7 +69,7 @@ namespace Logic.Migrations
 
                     var col = new Repository.Colour();
 
-                    foreach(var colour in context.Colours)
+                    foreach (var colour in context.Colours)
                     {
                         if (split[3] == colour.colour)
                             col = colour;
@@ -77,7 +77,7 @@ namespace Logic.Migrations
 
                     var s = new Repository.Size();
 
-                    foreach(var size in context.Sizes)
+                    foreach (var size in context.Sizes)
                     {
                         if (split[4] == size.size)
                             s = size;

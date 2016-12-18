@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Logic.Repository
 {
-    public class Colour
+    class Colour : BaseEntity
     {
-        private int _IdColour;
 
         public int ColourId
         {
-            get;
-            set;
+            get { return base.Id; }
+            set { base.Id = value; }
         }
 
         private string _colour;
