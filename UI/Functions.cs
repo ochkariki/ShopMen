@@ -47,7 +47,7 @@ namespace UI
             //all data was correct
             MailMessage mail = new MailMessage();
 
-            mail.From = new MailAddress("heckfy1995@mail.ru");
+            mail.From = new MailAddress("inna96i@mail.ru");
 
             mail.To.Add(new MailAddress(email));
 

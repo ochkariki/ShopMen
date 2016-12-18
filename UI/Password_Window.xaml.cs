@@ -26,9 +26,9 @@ namespace UI
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //if (Psw_box.Password == "123") Admin.ShowDialog();
-            //else
-            //    Label_Error.Content = "It is wrong password";
+            if (Psw_box.Password == "123") Admin.ShowDialog();
+            else
+                Label_Error.Content = "It is wrong password";
         }
 
         private void Window_Closed(object sender, EventArgs e)

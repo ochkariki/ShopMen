@@ -89,6 +89,9 @@
     <Compile Include="3_ChooseFrak.xaml.cs">
       <DependentUpon>3_ChooseFrak.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Admin.xaml.cs">
+      <DependentUpon>Admin.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -107,6 +110,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="6_Feedback.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Admin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
