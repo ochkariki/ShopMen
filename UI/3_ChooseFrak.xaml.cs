@@ -33,7 +33,7 @@ namespace UI
             Functions.For_User_Data(out Ruben_List, "Ruben");
             Functions.For_User_Data(out Melange_List, "Melange");
             List<string> Colors = new List<string>();
-            Functions.Color(out Colors);
+         //   Functions.Color(out Colors);
             Naples_listBox.ItemsSource = Colors;
             Clark_listBox.ItemsSource = Colors;
             Ruben_listBox.ItemsSource = Colors;
