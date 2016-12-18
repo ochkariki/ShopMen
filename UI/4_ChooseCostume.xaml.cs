@@ -17,9 +17,9 @@ namespace UI
     /// <summary>
     /// Логика взаимодействия для ChooseCostume.xaml
     /// </summary>
-    public partial class ChooseCostume : Window
+    public partial class _4_ChooseCostume : Window
     {
-        public ChooseCostume()
+        public _4_ChooseCostume()
         {
             InitializeComponent();
         }

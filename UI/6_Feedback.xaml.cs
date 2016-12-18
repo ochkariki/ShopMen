@@ -64,9 +64,16 @@ namespace UI
             string type = Type_Combo.SelectedValue.ToString();
 
             string text = string.Format("Здравствуйте, уважаемый клиент!\nСпасибо, что выбрали наш магазин. Сумма вашей покупки составила {0} рублей. Способ оплаты вы выбрали {1}.\nС уважением,\nЛюбимый магазин.", sum.ToString(), type);
-            if (checkmail(TextBox_mail.Text)) { Functions.Mail("", TextBox_mail.Text); this.Close(); }
+            if (checkmail(TextBox_mail.Text))
+            {
+                Functions.Mail("", TextBox_mail.Text);
+                this.Close();
+            }
             else
+            {
                 Label_error.Content = "Your e-mail address is incorrect";
+                Label_error.Foreground = Brushes.Red;
+            }
         }
     }
 }

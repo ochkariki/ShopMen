@@ -13,8 +13,9 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Button Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="300" Width="300">
             <Button.Background>
@@ -40,31 +41,55 @@
         <Label Content="Caesar" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
         <Label Content="Lorenzo" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
         <Label Content="Dignity" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
-        <Label Content="Colour" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Colour" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Colour" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Colour" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <ListBox Name ="Naples_listBox"  Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
-        <ListBox Name ="Clark_listBox" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
-        <ListBox Name ="Ruben_listBox" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
-        <ListBox Name ="Melange_listBox" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
-        <Label Content="Size" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Size" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Size" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Size" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <ComboBox Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" Background="White" BorderBrush="Black"></ComboBox>
-        <ComboBox Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" Background="White" BorderBrush="Black"></ComboBox>
-        <ComboBox Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" Background="White" BorderBrush="Black"></ComboBox>
-        <ComboBox Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" Background="White" BorderBrush="Black"></ComboBox>
+        <Label Content="Colour" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="10,65,10,0" Width="258" 
+               HorizontalContentAlignment="Center"/>
+        <Label Content="Colour" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="14,65,10,0" Width="254" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Colour" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="14,65,14,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Colour" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="14,65,14,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <ListBox Name ="King_listBox"  Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
+        <ListBox Name ="Ceasar_listBox" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
+        <ListBox Name ="Lorenzo_listBox" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
+        <ListBox Name ="Dignity_listBox" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
+        <Label Content="Size" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="10,65,10,0" Width="180" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Size" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="10,65,10,0" Width="180" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Size" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="10,65,10,0" Width="180" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Size" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="10,65,10,0" Width="180" 
+               HorizontalContentAlignment="Center"></Label>
+        <ComboBox Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="100" Background="White" BorderBrush="Black"></ComboBox>
+        <ComboBox Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="100" Background="White" BorderBrush="Black"></ComboBox>
+        <ComboBox Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="100" Background="White" BorderBrush="Black"></ComboBox>
+        <ComboBox Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="100" Background="White" BorderBrush="Black"></ComboBox>
         <Label Content="16400 р" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="0" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
         <Label Content="13000 р" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="1" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
         <Label Content="12600 р" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="2" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
         <Label Content="17000 р" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="3" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
-        <Label Content="Price" Grid.Column="4" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Price" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Price" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Label Content="Price" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
-        <Button Grid.Column="4" Grid.Row="3" Height="52" Width="250" Margin="27,291,26,42" HorizontalAlignment="Center" Content="Buy" FontSize="29" Background="#1D356A" Foreground="White"
-                FontFamily="Roboto" FontWeight="Light"></Button>
+        <Label Content="Price" Grid.Column="4" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="15,65,13,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Price" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="15,65,13,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Price" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="15,65,13,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Price" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="15,65,13,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Quantity" Grid.Column="5" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="15,65,13,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Quantity" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="15,65,13,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Quantity" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="15,65,13,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <Label Content="Quantity" Grid.Column="5" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="15,65,13,0" Width="250" 
+               HorizontalContentAlignment="Center"></Label>
+        <ListBox Name="King_Q" Grid.Column="5" Grid.Row="0" Height="52" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Black"></ListBox>
+        <ListBox Name="Ceasar_Q" Grid.Column="5" Grid.Row="1" Height="52" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Black"></ListBox>
+        <ListBox Name="Lorenzo_Q" Grid.Column="5" Grid.Row="2" Height="52" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Black"></ListBox>
+        <ListBox Name="Dignity_Q" Grid.Column="5" Grid.Row="3" Height="52" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Black"></ListBox>
+        <Button Grid.Column="5" Grid.Row="3" Height="52" Width="250" Margin="27,291,26,42" HorizontalAlignment="Center" Content="Buy" FontSize="29" Background="#1D356A" 
+                Foreground="White" FontFamily="Roboto" FontWeight="Light"></Button>
     </Grid>
 </Window>
