@@ -20,7 +20,7 @@
                 Grid.Row="1" Background="#1D356A" Foreground="White" Grid.Column="0" Click="Button_Click"/>
         <Button Content="Customer" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" 
                 VerticalContentAlignment="Center" Width="182" Height="52" FontFamily="Roboto" FontSize="24" FontWeight="Light" 
-                Grid.Row="1" Background="#1D356A" Foreground="White" Grid.Column="1" Click="Button_Click_2" />
+                Grid.Row="1" Background="#1D356A" Foreground="White" Grid.Column="1" Click="Button_Click_1" />
         <Label Content="Online-Shop for men's costumes &quot;A Jacket&quot;" HorizontalContentAlignment="Center" Grid.Row="0"
                VerticalContentAlignment="Center" FontFamily="Roboto" FontSize="24" FontWeight="Normal" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5"/>
         <Label Content="What type of user are you?" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="2" 
