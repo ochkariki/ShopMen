@@ -18,24 +18,53 @@
         </Grid.ColumnDefinitions>
         <Button Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="300" Width="300">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Папа\Source\Repos\ShopMen\81608846_blackenlarged.jpg" Stretch="UniformToFill"></ImageBrush>
+                <ImageBrush ImageSource="Resources\81608846_blackenlarged.jpg" Stretch="UniformToFill"></ImageBrush>
             </Button.Background>
         </Button>
         <Button Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="300" Width="300">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Папа\Source\Repos\ShopMen\original.jpg" Stretch="UniformToFill"></ImageBrush>
+                <ImageBrush ImageSource="Resources\original.jpg" Stretch="UniformToFill"></ImageBrush>
             </Button.Background>
         </Button>
         <Button Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="300" Width="300">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Папа\Source\Repos\ShopMen\pal-zileri-4362-spring-summer-2012-0003.jpg" Stretch="UniformToFill"></ImageBrush>
+                <ImageBrush ImageSource="Resources\pal-zileri-4362-spring-summer-2012-0003.jpg" Stretch="UniformToFill"></ImageBrush>
             </Button.Background>
         </Button>
         <Button Grid.Column="0" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="300" Width="300">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Папа\Source\Repos\ShopMen\s_chem_nosit_frak_muzhchinam_1.jpg" Stretch="UniformToFill"></ImageBrush>
+                <ImageBrush ImageSource="Resources\s_chem_nosit_frak_muzhchinam_1.jpg" Stretch="UniformToFill"></ImageBrush>
             </Button.Background>
         </Button>
-        <Label Content="Naples" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="0" ></Label>
+        <Label Content="Naples" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="0" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
+        <Label Content="Clark" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
+        <Label Content="Ruben" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
+        <Label Content="Melange" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
+        <Label Content="Colour" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Colour" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Colour" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Colour" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <ListBox Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
+        <ListBox Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
+        <ListBox Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
+        <ListBox Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" BorderBrush="Black"></ListBox>
+        <Label Content="Size" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Size" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Size" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Size" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <ComboBox Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" Background="White" BorderBrush="Black"></ComboBox>
+        <ComboBox Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" Background="White" BorderBrush="Black"></ComboBox>
+        <ComboBox Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" Background="White" BorderBrush="Black"></ComboBox>
+        <ComboBox Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="52" Width="250" Background="White" BorderBrush="Black"></ComboBox>
+        <Label Content="20000 р" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="0" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
+        <Label Content="19000 р" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="1" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
+        <Label Content="21000 р" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="2" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
+        <Label Content="20500 р" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="3" FontFamily="Roboto" FontSize="29" FontWeight="Light"></Label>
+        <Label Content="Price" Grid.Column="4" Grid.Row="0" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Price" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Price" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Label Content="Price" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Center" FontFamily="Roboto" FontSize="29" FontWeight="Medium" Margin="104,65,104,0" ></Label>
+        <Button Grid.Column="4" Grid.Row="3" Height="52" Width="250" Margin="27,291,26,42" HorizontalAlignment="Center" Content="Buy" FontSize="29" Background="#1D356A" Foreground="White"
+                FontFamily="Roboto" FontWeight="Light"></Button>
     </Grid>
 </Window>
