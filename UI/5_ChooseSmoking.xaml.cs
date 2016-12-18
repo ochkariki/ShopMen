@@ -21,7 +21,7 @@ namespace UI
     {
         public ChooseSmoking()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
