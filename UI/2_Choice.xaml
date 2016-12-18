@@ -17,17 +17,17 @@
                FontFamily="Roboto" FontSize="24" FontWeight="Normal"></Label>
         <Button Height="313" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="278">
             <Button.Background>
-                <ImageBrush ImageSource ="06b758ffa29315af62c256f7a8710956.jpg" Stretch="UniformToFill"></ImageBrush>
+                <ImageBrush ImageSource ="Resources/06b758ffa29315af62c256f7a8710956.jpg" Stretch="UniformToFill"></ImageBrush>
             </Button.Background>
         </Button>
         <Button HorizontalAlignment="Center" Height="313" VerticalAlignment="Center" Width="277" Grid.Row="1" Grid.Column="0">
             <Button.Background>
-                <ImageBrush ImageSource ="81608846_blackenlarged.jpg" Stretch="UniformToFill" ></ImageBrush>
+                <ImageBrush ImageSource ="Resources/81608846_blackenlarged.jpg" Stretch="UniformToFill" ></ImageBrush>
             </Button.Background>
         </Button>
         <Button HorizontalAlignment="Center" Height="313" VerticalAlignment="Center" Width="277" Grid.Row="1" Grid.Column="2">
             <Button.Background>
-                <ImageBrush ImageSource ="3-big.jpg" Stretch="UniformToFill" ></ImageBrush>
+                <ImageBrush ImageSource ="Resources/3-big.jpg" Stretch="UniformToFill" ></ImageBrush>
             </Button.Background>
         </Button>
         <Button Content="Frak" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" 
