@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logic.Repository
 {
-    class Colour : BaseEntity
+    public class Colour : BaseEntity
     {
 
         public int ColourId

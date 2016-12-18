@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Logic
 {
-    class Context : DbContext
+    public class Context : DbContext
     {
         public DbSet<Costume> Costumes { get; set; }
 

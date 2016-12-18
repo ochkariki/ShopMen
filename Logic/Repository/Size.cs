@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logic.Repository
 {
-    class Size : BaseEntity
+    public class Size : BaseEntity
     {
 
 

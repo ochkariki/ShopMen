@@ -119,6 +119,7 @@
     <Compile Include="6_Feedback.xaml.cs">
       <DependentUpon>6_Feedback.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Functions.cs" />
     <Compile Include="Password_Window.xaml.cs">
       <DependentUpon>Password_Window.xaml</DependentUpon>
     </Compile>
@@ -158,6 +159,16 @@
       <Project>{91c87a8c-c48a-4df1-8f81-c400ff65709b}</Project>
       <Name>Logic</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\39_920_1005_098_f27.jpg" />
+    <Resource Include="Resources\black-skinny-suit.jpg" />
+    <Resource Include="Resources\Blazers-font-b-For-b-font-font-b-Men-b-font-font-b-Suits-b-font.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\10750.jpg" />
+    <Resource Include="Resources\810.jpg" />
+    <Resource Include="Resources\I_5053044851416_01_20131010.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
