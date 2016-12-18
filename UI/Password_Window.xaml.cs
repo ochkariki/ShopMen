@@ -10,31 +10,31 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace UI
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для Password_Window.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Password_Window : Window
     {
-        public MainWindow()
+        public Password_Window()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Password_Window wind = new Password_Window();
-            wind.Show();
-            this.Close();
+            //if (Psw_box.Password == "123") Admin.ShowDialog();
+            //else
+            //    Label_Error.Content = "It is wrong password";
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Window_Closed(object sender, EventArgs e)
         {
-
+            MainWindow mw = new MainWindow();
+            mw.Show();
         }
     }
 }
