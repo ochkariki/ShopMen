@@ -1,0 +1,29 @@
+﻿<Window x:Class="UI._3_ChoiceFrak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="_3_ChoiceFrak" Height="598.045" Width="1543.403">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="40,35,0,0" VerticalAlignment="Top" Width="187"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="40,163,0,0" VerticalAlignment="Top" Width="187"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="40,295,0,0" VerticalAlignment="Top" Width="187"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="40,427,0,0" VerticalAlignment="Top" Width="187"/>
+        <Button Content="BYU" HorizontalAlignment="Left" Margin="1320,437,0,0" VerticalAlignment="Top" Width="187" Height="90" Click="Button_Click_1" FontFamily="Monotype Corsiva" FontSize="48"/>
+        <Label Content="Naples" HorizontalAlignment="Left" Margin="314,57,0,0" VerticalAlignment="Top" Width="112" Height="44" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <Label Content="Clark" HorizontalAlignment="Left" Margin="314,175,0,0" VerticalAlignment="Top" Height="58" Width="112" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <Label Content="Ruben" HorizontalAlignment="Left" Margin="314,305,0,0" VerticalAlignment="Top" Height="52" Width="112" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <Label Content="Melange" HorizontalAlignment="Left" Margin="314,437,0,0" VerticalAlignment="Top" Height="50" Width="112" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="626,35,0,0" VerticalAlignment="Top" Width="218" SelectionChanged="ListBox_SelectionChanged"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="626,163,0,0" VerticalAlignment="Top" Width="218"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="626,295,0,0" VerticalAlignment="Top" Width="218"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="626,427,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label Content="24 500 rubles" HorizontalAlignment="Left" Margin="938,35,0,0" VerticalAlignment="Top" Height="100" Width="144" FontFamily="Monotype Corsiva" FontSize="22"/>
+        <Label Content="26 200 rubles" HorizontalAlignment="Left" Margin="938,163,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <Label Content="19 800 rubles" HorizontalAlignment="Left" Margin="938,295,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <Label Content="23 000 rubles" HorizontalAlignment="Left" Margin="938,427,0,0" VerticalAlignment="Top" Width="144" Height="100" FontFamily="Monotype Corsiva" FontSize="24"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="1168,35,0,0" VerticalAlignment="Top" Width="100"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="1168,163,0,0" VerticalAlignment="Top" Width="100"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="1168,295,0,0" VerticalAlignment="Top" Width="100"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="1168,427,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>

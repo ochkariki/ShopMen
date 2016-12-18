@@ -6,20 +6,11 @@ using System.Threading.Tasks;
 
 namespace Logic.Repository
 {
-    enum Type
-    {
-        Frak, Costume, Smoking
-    }
-
-    enum Colour
-    {
-        Black, Grey, White
-    }
     class Costume
     {
         private int _IdCostume;
 
-        public int IdCostume
+        public int CostumeId
         {
             get { return _IdCostume; }
             set { _IdCostume = value; }
@@ -33,9 +24,9 @@ namespace Logic.Repository
             set { _name = value; }
         }
 
-        private Type _type;
+        private TypeOfCostume _type;
 
-        public Type type
+        public TypeOfCostume type
         {
             get { return _type; }
             set { _type = value; }
@@ -49,9 +40,9 @@ namespace Logic.Repository
             set { _colour = value; }
         }
 
-        private int _size;
-        
-        public int size
+        private Size _size;
+
+        public Size size
         {
             get { return _size; }
             set { _size = value; }
@@ -64,5 +55,6 @@ namespace Logic.Repository
             get { return _quantity; }
             set { _quantity = value; }
         }
+
     }
 }
