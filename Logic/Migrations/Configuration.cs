@@ -16,7 +16,7 @@ namespace Logic.Migrations
 
         protected override void Seed(Logic.Context context)
         {
-            using (var sr = new StreamReader("../Costume.csv"))
+            using (var sr = new StreamReader("Costume.csv"))
             {
                 int a = 1, b = 1, c = 1, d = 1;
 
