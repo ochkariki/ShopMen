@@ -7,6 +7,7 @@
             <RowDefinition Height="100"></RowDefinition>
             <RowDefinition Height="400"></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -30,11 +31,13 @@
                 <ImageBrush ImageSource ="Resources/3-big.jpg" Stretch="UniformToFill" ></ImageBrush>
             </Button.Background>
         </Button>
-        <Button Content="Frak" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" 
-                VerticalContentAlignment="Center" Width="182" Height="52" FontSize="24" FontWeight="Light" Background="#1D356A" Foreground="White"></Button>
-        <Button Content="Costume" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" 
-                VerticalContentAlignment="Center" Width="182" Height="52" FontSize="24" FontWeight="Light" Background="#1D356A" Foreground="White"></Button>
-        <Button Content="Dinner jacket" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" 
-                VerticalContentAlignment="Center" Width="182" Height="52" FontSize="24" FontWeight="Light" Background="#1D356A" Foreground="White"></Button>
+        <CheckBox Name="Frack_radio" Content="Frack" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Roboto" FontSize="25" 
+                  FontWeight="Light" Checked="CheckBox_Checked" ></CheckBox>
+        <CheckBox Name="Costume_radio" Content="Costume" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Roboto" FontSize="25" 
+                  FontWeight="Light" Checked="CheckBox_Checked" ></CheckBox>
+        <CheckBox Name="Smoking_radio" Content="Dinner jacket" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Roboto" FontSize="25" 
+                  FontWeight="Light" Checked="CheckBox_Checked" ></CheckBox>
+        <Button Grid.Column="2" Grid.Row="3" Content="Next" FontFamily="Roboto" FontSize="25"  FontWeight="Light" Background="#1D356A" Foreground="White" Height="52" Width="230"
+                HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></Button>
     </Grid>
 </Window>
